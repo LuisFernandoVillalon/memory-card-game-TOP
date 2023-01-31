@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memory-card-game-TOP/static/css/main.5fdf61ec.css",
-    "main.js": "/memory-card-game-TOP/static/js/main.dbb2eeda.js",
+    "main.css": "/memory-card-game-TOP/static/css/main.321d36db.css",
+    "main.js": "/memory-card-game-TOP/static/js/main.27f23e90.js",
     "static/media/brazil-8.jpg": "/memory-card-game-TOP/static/media/brazil-8.4693c70d451ea2dc45fe.jpg",
     "static/media/japan-1.jpg": "/memory-card-game-TOP/static/media/japan-1.40dc15f49cb48a3a5bc4.jpg",
     "static/media/brazil-2.jpg": "/memory-card-game-TOP/static/media/brazil-2.d130b66dea2ef1272c28.jpg",
@@ -43,11 +43,11 @@
     "static/media/mexico-4.jpg": "/memory-card-game-TOP/static/media/mexico-4.3d7964cbb30e57e7c680.jpg",
     "static/media/italy-3.jpg": "/memory-card-game-TOP/static/media/italy-3.657b14e317806e21ddf2.jpg",
     "index.html": "/memory-card-game-TOP/index.html",
-    "main.5fdf61ec.css.map": "/memory-card-game-TOP/static/css/main.5fdf61ec.css.map",
-    "main.dbb2eeda.js.map": "/memory-card-game-TOP/static/js/main.dbb2eeda.js.map"
+    "main.321d36db.css.map": "/memory-card-game-TOP/static/css/main.321d36db.css.map",
+    "main.27f23e90.js.map": "/memory-card-game-TOP/static/js/main.27f23e90.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fdf61ec.css",
-    "static/js/main.dbb2eeda.js"
+    "static/css/main.321d36db.css",
+    "static/js/main.27f23e90.js"
   ]
 }
