@@ -57,6 +57,17 @@ const Main = () => {
         }
         setGameStatus(false);
         setGameWon(false);
+    }
+
+    const startGame = (currLevelImgs) => {
+        setCurrScore(0);
+        setCurrLevel(1);
+        setCurrLevelImgs(levelArray.levelOne);
+         for (let i = 0; i < currLevelImgs.length; ++i) {
+            currLevelImgs[i][1] = 0;
+        }
+        setGameStatus(false);
+        setGameWon(false);
         setBestScore(40);
     }
 
@@ -99,7 +110,7 @@ const Main = () => {
     const [currLevelImgs, setCurrLevelImgs] = useState(levelArray.levelOne);
     
     return (
-        <div>
+        <div className="content-height">
             <ScoreContainer 
                 bestScore={bestScore} setBestScore={setBestScore}
                 currScore={currScore} setCurrScore={setCurrScore}
@@ -128,7 +139,7 @@ const Main = () => {
                 currLevel={currLevel} setCurrLevel={setCurrLevel}
                 currLevelImgs={currLevelImgs} setCurrLevelImgs={setCurrLevelImgs}
                 gameStatus={gameStatus} setGameStatus={setGameStatus}
-                resetGame={resetGame}
+                startGame={startGame}
                 gameWon={gameWon} setGameWon={setGameWon}
             />}
         </div>

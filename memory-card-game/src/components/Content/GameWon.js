@@ -1,6 +1,6 @@
 import React from "react";
 
-const GameWon = ({ currScore, currLevel, currLevelImgs, gameStatus, resetGame, gameWon }) => {
+const GameWon = ({ currScore, currLevel, currLevelImgs, gameStatus, startGame, gameWon }) => {
 
     return (
         <div className="black-background">
@@ -8,7 +8,7 @@ const GameWon = ({ currScore, currLevel, currLevelImgs, gameStatus, resetGame, g
                 <div className="gameover-content">
                     <p>You beat all five levels! 🥳</p>
                     <p className="small-text">*Your memory is 😚🤌*</p>
-                    <button className="reset-btn" onClick={() => resetGame(currScore, currLevel, currLevelImgs, gameStatus, gameWon)}>Play Again?</button>
+                    <button className="reset-btn" onClick={() => startGame(currScore, currLevel, currLevelImgs, gameStatus, gameWon)}>Play Again?</button>
                 </div>
             </div>
         </div>
